@@ -10,7 +10,7 @@ divisao_inteira = a // b # Divisão inteira (//): divide o primeiro valor pelo s
 modulo = a % b # Módulo (%): devolve o resto da divisão entre o primeiro valor e o segundo
 exponeciacao = a ** b # Exponenciação (**): eleva o primeiro valor à potência do segundo
 
-print(f"soma {soma}")
+print(f"\nsoma {soma}")
 print(f"subtracao{subtracao}")
 print(f"multiplicacao{multiplicacao}")
 print(f"divisao{divisao}")  
@@ -29,7 +29,7 @@ menor = a < b # Menor que (<): devolve True se o primeiro valor é menor que o s
 maior_igual = a >= b # Maior ou igual que (>=): devolve True se o primeiro valor é maior ou igual que o segundo
 menor_igual = a <= b # Menor ou igual que (<=): devolve True se o primeiro valor é menor ou igual que o segundo
 
-print(f"igual{igual}")
+print(f"\nigual{igual}")
 print(f"diferente{diferente}")
 print(f"maior{maior}")
 print(f"menor{menor}")
@@ -44,6 +44,6 @@ resultado_and = (a > 5) and (b <5) # AND (and): devolve True se ambas as express
 resultado_or = (a >15) or (b < 5) # OR (or): devolve True se pelo menos uma das expressões for verdadeira
 resultado_not = not( a > 5) # NOT (not): inverte o valor lógico da expressão (True vira False e vice-versa)
 
-print(f"reultado_ando{resultado_and}")
+print(f"\nreultado_ando{resultado_and}")
 print(f"resultado_or{resultado_or}")
 print(f"resultado_not{resultado_not}")
