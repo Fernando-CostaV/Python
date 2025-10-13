@@ -16,6 +16,19 @@ for indice, jogo in enumerate(lista_de_jogos) :
     print(f"{indice+1} - {jogo}")
     #Quando usamos for e enumerate juntos precisamos que ambos  permaneçam juntos, ou seja, o for percorre a lista e o enumerate cria os índices.
 
+    print("\nUsando continue")
+    for i in range(10):
+         if i % 2==0:
+              continue
+         print(i)
+         #Neste exemplo, o loop for itera sobre os números de 0 a 9 utilizando a função range(). Dentro do loop, verifica-se se o número é divisível por 2 utilizando o operador de módulo %. Se o número for divisível por 2 (ou seja, se for par), a instrução continue é executada, fazendo com que o restante do bloco de código seja pulado e passando para a próxima iteração do loop. Como resultado, apenas os números ímpares serão impressos
+
+    print("\nUsando Pass")
+    for i in range(5):
+              pass
+              break    
+         #Neste exemplo, o loop for itera sobre os números de 0 a 4, mas nenhuma ação é realizada dentro do loop devido à instrução pass. Isso pode ser útil quando se está desenvolvendo um programa e se deseja reservar um bloco de código para implementá-lo mais tarde
+
 
 
 
